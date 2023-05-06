@@ -1,0 +1,6 @@
+my_name = str(input("what is your name? :"))
+print("Hello",my_name)
+greetings_response = str(input("how are doing today?"))
+print("That's Great to hear")
+my_age = str(input("what is your age? :"))
+print("perfect")
