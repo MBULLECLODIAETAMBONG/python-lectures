@@ -15,4 +15,37 @@ print("The value for addition is:",add_operation)
 print("The value for division is:",div_operation)
 print("The value for multiplication is:",multi_operation)        
 
+# Python Comparism operator: Compares if the left side of the equation is equal to the right side 
+
+x = 10
+y = 4
+
+# EQUALITY OPERATOR
+print(x==y)
+
+# GREATER THAN OPERATOR
+print(y>x)
+
+# GREATER THAN OR EQUALITY TO OPERATOR
+print(x>=y)
+
+# LESSER THAN OPERATOR
+print(y<x)
+
+# LESSER THAN OR EQUALITY OPERATOR
+print(y<=x)
+
+# LOGICAL OPERATOR: it used to compare conditional statement
+
+# AND  operator
+funcho = 40
+sandra = 24
+marbel = 10
+print(sandra>funcho and marbel>sandra)
+
+# OR operator
+print(sandra<funcho or marbel>sandra)
+
+# NOT operator
+print(not(sandra>funcho and marbel>sandra))
 
