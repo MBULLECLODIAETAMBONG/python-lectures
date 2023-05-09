@@ -3,11 +3,17 @@
 
 # Get the value of Principal from the user
 P = float(input("Enter the principal: "))
-print("p = ", P, \n)
+print("p = ", P)
+
 # Get the value of Time from the user
 T = float(input("Enter the Time: "))
+print("T = ", T)
+
 # Get the value of Rate from the user
 R = float(input("Enter the Rate: "))
+print("R = ", R)
+
 # formula for simple interest
 simple_interest = (P * T * R)/100
+
 print("The simple interest is: ", simple_interest)
