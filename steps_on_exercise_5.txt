@@ -1,0 +1,16 @@
+Steps to implement
+
+1. Prompt the user to enter the number of questions on the exam, the number of questions the student answered correctly, and the number of points each question is worth.
+
+2. Calculate the total number of points the student earned on the exam by multiplying the number of questions the student answered correctly by the number of points each question is worth.
+
+3. Calculate the maximum number of points the student could have earned on the exam by multiplying the total number of questions by the number of points each question is worth.
+
+4. Calculate the student's grade as a percentage by dividing the total number of points the student earned by the maximum number of points they could have earned, and multiplying by 100.
+
+5. Use conditional statements to check if the student passed or failed the exam. If the student's grade is 50% or higher, print a message indicating that the student passed the exam.
+
+ If the student's grade is below 50%, print a message indicating that the student failed the exam.
+
+The link of making the git bash a default terminal
+ https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#:~:text=If%20you%20want%20to%20set,be%20opened%20with%20Git%20Bash.
