@@ -11,10 +11,10 @@ for x in num:
     else:
         print(x, ": is odd")
     
-# using the rang() method
-print(" This is a FOR LOOP")
+# using the rang() method to print backward
+print(" This is a FOR LOOP to print backward")
 
-for i in range(1, 10):
+for i in range(1, 11):
     if(i %2 == 0):
         print(i, ": is an even number")
     else:
@@ -23,10 +23,10 @@ for i in range(1, 10):
 #   WHILE LOOP
 print(" This is a WHILE LOOP")
 
-number = 1
-while(number <= 10):
+number = 10
+while(number >=1):
     if(number %2 ==0):
         print(number, ": is an Even number")
     else:
         print(number, ": is an Odd number")
-    number += 1
+    number -= 1

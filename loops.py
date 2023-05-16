@@ -33,10 +33,6 @@ print(new_fruits)
 print("THIS IS SLICING")
 name = "Cenderella"
 for i in name:
-    if (i %2 ==0):
-        print(name[i], end="")
-    else:
-        print("odd")
-    
+    print(i)
    
     
