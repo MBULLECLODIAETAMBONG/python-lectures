@@ -4,7 +4,7 @@ def my_name():    # function name
     print("My name is CLODIA, am a DevOp Engineer")  # function body
 print(my_name())  # function call
 
-# Parameeter FUnction
+# Parameter FUnction
 
 def my_identity(name, address, birthday):
     print("Hello my name is", name, "Welcome to Compudamy")
