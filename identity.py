@@ -4,4 +4,5 @@ my_name = "CLODIA"
 my_age = 21
 # final_result ="My name is" , my_name , "and am" , my_age , "years old"
 # print(final_result) 
-print("My name is" , my_name , "and am" , my_age , "years old") # Outpus 
+print("My name is" , my_name , "and am" , my_age , "years old") # Output
+
