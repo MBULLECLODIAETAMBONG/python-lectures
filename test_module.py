@@ -1,7 +1,6 @@
 import python_custom_module as custom
 
 #  python module to output a name
-
 print("python module to output a name")
 print(custom.my_name("Mbulle"))
 
