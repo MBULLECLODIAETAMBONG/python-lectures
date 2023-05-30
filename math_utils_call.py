@@ -1,4 +1,5 @@
 #  A MODULE: is a file that contains code that performs a specific task when called.
+#  There are two main types of Python modules: built-in modules and user-defined modules
 
 # importing the module created call "math_utils" into my program file (math_utils_call.py)
 
