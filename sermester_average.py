@@ -26,7 +26,7 @@ else:
  
 def average_score(Geometry, Algebra, Physics):
     total_scored = (Geometry + Algebra + Physics) 
-    average_marks = (total_scored / 3) * 100 
+    average_marks = (total_scored / 30) * 100 
 
     if average_marks >= 70:
         print("Good Job!")
