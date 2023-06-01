@@ -1,5 +1,18 @@
-# Using function
-# declaring the appropriate variables 
+#                      Exercise 2
+# An internet cafe has 2 ways of charging. If the user is a member pays 2$/hour, Else the user
+# pays 5$. Find if someone is a member or not and calculate the price based on how many hours
+# the user spend. If the user is a member the tax is 10% else the tax is 20%.
+# Create a program that:
+#      ● Reads how many hours the user spend
+#    ● Check if is a member
+#    ● Add the proper tax fee
+#    ● Print the total amount the user has to pay
+#        Output: "The user is a member stayed 2 hours for 2$/hour plus the 10% the total amount is 4.4$
+
+
+#                Using functional programming
+
+#  declaring the appropriate variables 
 
 def check_member():
     
@@ -26,4 +39,3 @@ def check_member():
     tax_fee = total_amount * tax_rate
     total_amount += tax_fee
     return total_amount
-#print(membership_status, "stayed", hours_user_spent, "hours for", hourly_rate, "$/hour","plus the", tax_rate, "the total amount is: ", total_amount)
