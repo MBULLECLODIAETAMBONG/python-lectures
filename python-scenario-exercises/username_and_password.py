@@ -9,3 +9,27 @@
 
 #               Solution:  PROCEDURAL PROGRAMMING
 
+
+# initializing trial to be zero
+trial = 0
+
+# trial should be less than 3 since trial begins from zero making it a maximum of three trials
+while(trial < 3):
+    
+    # prompting the user to enter the username and password
+    user_name = str(input("Enter your user name: "))
+    password = str(input("Enter your password: "))
+    
+    # checking if the user name and password entered correspond to user name and password
+    if(user_name == "Admin" and password == "admin@123"):
+        print("Access granted")
+        break
+    
+    else:
+        print("Wrong Credential, try again")
+        trial += 1
+        
+        if(trial == 3):
+            print('Three wrong attempts thus access Denied')
+    
+ 
