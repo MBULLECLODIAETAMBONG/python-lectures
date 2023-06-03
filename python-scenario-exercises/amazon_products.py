@@ -10,6 +10,8 @@
 
 #         Solution: USING PROCEDURAL PROGRAMMING
 
+# method are invoked in front of a class or tied down to a class or variable whereas functions are independent
+
 #  initializing different location
 US = 5
 Europe = 7
@@ -17,33 +19,32 @@ Canada = 3
 other_places = 9
 
 #  prompt the seller to enter the cost of the product
-cost_of_product = int(input("What is the cost of this product? : "))
+cost_of_product = float(input("What is the cost of this product? : "))
 
 # total_cost_of_product = (cost_of_product + US) or (cost_of_product + Europe) or (cost_of_product + Canada) or (cost_of_product + other_places)   
 
 # prompt the customer to enter the location
-location = str(input("Where are you located? : "))
+location = str(input("Enter your location (US, Europe, Canada or Other places)"))
 
 if (location.upper() == "US"):
     
     # calculates the total cost of the product by adding cost of product plus shipping cost base on customer location
-    total_cost_of_product = (cost_of_product + US)  
-    print("You have to pay", total_cost_of_product, "$,", cost_of_product, "$ for the product and",US,"$ for shipping cost")
-
+    shipping_cost = 5
+   
 elif(location.upper() == "EUROPE"):
     
     # calculates the total cost of the product by adding cost of product plus shipping cost base on customer location
-    total_cost_of_product = (cost_of_product + Europe)
-    print("You have to pay", total_cost_of_product,"$,", cost_of_product,"$ for the product and",Europe,"$ for shipping cost")
-
+    shipping_cost = 7
+    
 elif(location.upper() == "CANADA"):
     
     # calculates the total cost of the product by adding cost of product plus shipping cost base on customer location
-    total_cost_of_product = (cost_of_product + Canada)
-    print("You have to pay", total_cost_of_product,"$,", cost_of_product,"$ for the product and",Canada,"$ for shipping cost")
-    
+    shipping_cost = 3
+        
 else:
     
     # calculates the total cost of the product by adding cost of product plus shipping cost base on customer location
-    total_cost_of_product = (cost_of_product + other_places)
-    print("You have to pay", total_cost_of_product,"$,", cost_of_product,"$", "for the product and",other_places,"$ for shipping cost")
+    shipping_cost = 9
+    
+total_cost_of_product = (cost_of_product + shipping_cost)
+print("You have to pay", total_cost_of_product,"$,", cost_of_product,"$", "for the product and",other_places,"$ for shipping cost")
