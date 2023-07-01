@@ -1,0 +1,18 @@
+TODAY'S SUMMARY
+How to access docker images from    docker hub
+1. We pulled images from docker hub using the command:
+*   docker pull nginx
+2. we run the image nginx using:
+*   docker run nginx
+3. To see the list of all containers irrespective of whether the image is running or not alongside with the ID and ports using:
+*   docker ps -a
+4. To see the list of image ID that are there we use:
+*   docker ps -q
+5. To stop the  docker container from running we use:
+*   docker stop "container id"
+6. To stop more than one docker container from running we use:
+*   docker stop "container id 1", "container id 2" etc
+7. To restart your container when exited we use:
+*   docker restart "container id"
+8. To start your container image we use:
+*   docker start
